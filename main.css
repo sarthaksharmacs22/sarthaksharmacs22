@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lists ul {
+    display: flex;
+    gap: 30px;
+}
+
+.lists ul li a {
+    color: #000;
+}
+
+.section1 {
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.pagecloud.com/7hnOrLYW57XbQ3_XqnxWMT9AeYg=/2100x0/filters:no_upscale()/collections/images/image-ID-b56c6a1d-367d-4c1d-eac3-fb4c3a5d2abb.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.section1 .child1 p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.section1 .child2 h1 {
+    text-align: center;
+    line-height: 1;
+    font-size: 62px;
+    font-weight: 600;
+}
+
+.section1 .child3 p {
+    width: 700px;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.section2 {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+
+.section2-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content1 {
+    height: auto;
+    width: 540px;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.content2 {
+    max-width: 800px;
+    height: auto;
+    color: #B09A08;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.section3 {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec3-content1 p {
+    line-height: 1.6;
+    font-weight: 400;
+    color: rgba(102, 108, 119);
+    width: 540px;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 643px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.pagecloud.com/KOm-w4J2svthj_4uhRxIlbB94eA=/2100x0/filters:no_upscale()/classic-temp4/images/image-d64bf.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-left: 200px;
+    justify-content: center;
+}
+
+.section4 .box1 p {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.2;
+}
+
+.section4 .box2 h1 {
+    font-size: 64px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.section4 .btn:hover a {
+    background-color: #B09A08;
+    color: #F0F0F0;
+}
+
+.btn a {
+    padding: 15px 25px;
+    color: #B09A08;
+    background-color: #F0F0F0;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+.section5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.left-content {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.left-content h4 {
+    color: #B09A08;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.left-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.right-content {
+    flex: 1;
+}
+
+.right-content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.section6 {
+    background-color: #F0F0F0;
+    padding: 50px;
+}
+
+
+/* Shared styles for both wine-tasting sections */
+
+.wine-tasting-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1000px;
+    background-color: white;
+    height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-container {
+    flex: 1;
+    height: 100%;
+    /* Makes sure the image takes up full container height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures image fills the container while maintaining aspect ratio */
+    display: block;
+}
+
+.content-container {
+    flex: 1;
+    padding-left: 40px;
+    height: 100%;
+    /* Makes sure content takes up full container height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-container h4 {
+    color: #d4c45a;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.content-container h1 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.content-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.wine-tasting-section .content-container .btn {
+    padding: 15px 25px;
+    /* background-color: #B09A08; */
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+.section7 {
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.pagecloud.com/w7vuY6y4fZ9sZkbpl9ME-esgKnI=/2100x0/filters:no_upscale()/classic-temp4/images/image-t87ad.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section7 h3 {
+    padding-top: 160px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 160px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+}
+
+footer {
+    height: 300px;
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+footer .lists ul li a {
+    color: white;
+}
