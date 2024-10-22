@@ -1,0 +1,26 @@
+/* Set the background image for the entire body */
+
+<link rel="stylesheet" href="styles.css">body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    /* Path to your image */
+    background-size: cover;
+    /* Makes sure the image covers the whole background */
+    background-position: center;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    height: 100vh;
+    /* Makes the body take the full viewport height */
+}
+
+
+/* Content styles */
+
+.content {
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-family: Arial, sans-serif;
+}
