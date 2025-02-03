@@ -191,7 +191,7 @@ if __name__ == "__main__":
     online_class = OnlineClass()
     
     # Add students with their face image
-    online_class.add_student("12345", "John Doe", "john123", "john_face.jpg")
+    online_class.add_student("2215001595", "SarthakSharma", "Sarthak_cs22", "sarthak_face.jpg")
     
     # Detect and analyze face using the webcam
     online_class.detect_and_analyze_face()
@@ -204,4 +204,4 @@ if __name__ == "__main__":
     online_class.send_email_with_attachment("sarthak.sharma_cs22@gla.ac.in", file_name)
     
     # Get student details after the session
-    online_class.get_student_details("john123")
+    online_class.get_student_details("Sarthak_cs22")
